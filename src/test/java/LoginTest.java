@@ -29,6 +29,8 @@ public class LoginTest {
 		driver.findElement(By.id("Passwd")).sendKeys("hello");
 		driver.findElement(By.id("signIn")).click();
 		//driver.findElement(By.id("signIn")).click();
+		
+		//comment added
 	}
 
 	@AfterSuite
