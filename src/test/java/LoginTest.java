@@ -24,10 +24,10 @@ public class LoginTest {
 	public void doLogIn()
 	{
 		driver.get("http://www.gmail.com");
-		driver.findElement(By.id("Email")).sendKeys("nit.mittal.089@gmail.com");
-		driver.findElement(By.id("next")).click();
-		driver.findElement(By.id("Passwd")).sendKeys("hello");
-		driver.findElement(By.id("signIn")).click();
+		driver.findElement(By.id("identifierId")).sendKeys("nit.mittal.089@gmail.com");
+//		driver.findElement(By.id("next")).click();
+//		driver.findElement(By.id("Passwd")).sendKeys("hello");
+//		driver.findElement(By.id("signIn")).click();
 		//driver.findElement(By.id("signIn")).click();
 		
 		//comment added today
