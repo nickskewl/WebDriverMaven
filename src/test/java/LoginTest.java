@@ -30,7 +30,7 @@ public class LoginTest {
 		driver.findElement(By.id("signIn")).click();
 		//driver.findElement(By.id("signIn")).click();
 		
-		//comment added
+		//comment added today
 	}
 
 	@AfterSuite
